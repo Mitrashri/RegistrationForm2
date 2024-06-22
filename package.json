@@ -1,0 +1,15 @@
+{
+    "name": "registration-app",
+    "version": "1.0.0",
+    "description": "A simple registration form using Node.js and MongoDB Atlas",
+    "main": "server/app.js",
+    "scripts": {
+        "start": "node server/app.js"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "dotenv": "^8.6.0",
+        "express": "^4.17.1",
+        "mongoose": "^5.12.3"
+    }
+}
